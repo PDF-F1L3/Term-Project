@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+
+}
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* nav */
+nav{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+.h1 {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.coffees {
+    font-weight: bold;
+    display: inline-block;
+}
+.home {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+.homer {
+ color: black;
+ text-decoration: none;
+}
+.nav1 {
+    color: #321a26;
+    text-decoration: none;
+}
+/* home */
+.homie {
+    width: 1500px;
+    height: 500px;
+    position: relative;
+    clear: both;
+    background-image: url(../images/atf-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+/*Banner*/
+.taste {
+    padding-left: 100px;
+    display: block;
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    opacity: 70%;
+    text-transform: uppercase;
+}
+.taste span{
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 100px;
+    font-size: 50px;
+    color: limegreen;
+    top: -5px;
+}
+.lorem {
+    position: relative;
+    padding-left: 100px;
+    top: 90px;
+    font-weight: 0;
+    opacity: 70%;
+    font-style: italic;
+}
+.learn {
+    position: relative;
+    top: 115px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 100px;
+}
