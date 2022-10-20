@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+
+}
+body {
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* nav */
+nav{
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+}
+.h1 {
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    font-size: 25px;
+}
+.coffees {
+    font-weight: bold;
+    display: inline-block;
+}
+.home {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+.homer {
+ color: black;
+ text-decoration: none;
+}
+.nav1 {
+    color: #321a26;
+    text-decoration: none;
+}
